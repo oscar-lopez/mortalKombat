@@ -5,6 +5,7 @@ get '/' do
 	erb :home
 end
 
+#Fight
 get '/fight' do
 	
 	player = Player.new
